@@ -1,0 +1,12 @@
+<script>
+var  numero = prompt (" Insira um numero de 4 digitos: ")
+var resto1 = numero%1000
+var milenios = (numero-resto1)/1000
+var resto2 =  resto1%100
+var centenas = (resto1-resto2)/100
+var resto3 = resto2%10
+var dezenas = (resto2-resto3)/10
+var unidades= resto3
+var soma= milenios+centenas+dezenas+unidades
+alert ("Soma entre os componentes: "+soma) 
+</script>

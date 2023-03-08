@@ -1,0 +1,11 @@
+<script>
+    var num3digitos =Number (prompt ("Digite um numero de 3 digitos: "))
+    var resto1 = num3digitos%100
+    var centenas = (num3digitos-resto1)/100
+    var resto2 = resto1%10
+    var dezenas = (resto1-resto2)/10
+    var unidades = resto2
+    var inverso= Number((unidades*100) + (dezenas*10) + (centenas))
+    var soma= num3digitos+inverso
+    alert ("Soma do numero com seu inverso: "+soma)
+    </script>
